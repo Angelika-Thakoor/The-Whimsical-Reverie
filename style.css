@@ -8,15 +8,19 @@ body {
     padding: 0;
     text-align: center;
 
+    /* Fallback background color */
+    background-color: #4b3b6c; /* dark purple as backup */
+
     /* Full-screen background image */
     background-image: url('https://raw.githubusercontent.com/Angelika-Thakoor/The-Whimsical-Reverie/main/22%2B%20Dark%20Purple%20Floral%20Canva%20Wedding%20Invitation%20Templates.jpeg');
-    background-size: cover;        /* cover the entire screen */
+    background-size: cover;        /* cover entire screen */
     background-position: center;   /* center the image */
     background-repeat: no-repeat;  /* don’t tile the image */
     height: 100vh;                 /* fill the viewport height */
+    position: relative;
 }
 
-/* Optional overlay for text readability */
+/* Semi-transparent overlay for text readability */
 body::before {
     content: "";
     position: absolute;
@@ -24,7 +28,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent dark overlay */
+    background-color: rgba(75, 59, 108, 0.4); /* semi-transparent purple overlay */
     z-index: -1;
 }
 
@@ -40,7 +44,7 @@ header h1 {
     font-size: 3em;
     margin: 0;
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* subtle magical glow */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* subtle glow */
 }
 
 header p {
@@ -56,7 +60,6 @@ main {
     padding: 30px 20px;
 }
 
-/* Section styling */
 section {
     margin-bottom: 40px;
 }
@@ -86,3 +89,4 @@ footer {
     padding: 20px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
+
