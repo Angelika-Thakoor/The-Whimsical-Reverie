@@ -13,7 +13,7 @@ body {
 
     /* Background image with exact size */
     background-image: url('https://raw.githubusercontent.com/Angelika-Thakoor/The-Whimsical-Reverie/main/22%2B%20Dark%20Purple%20Floral%20Canva%20Wedding%20Invitation%20Templates.jpeg');
-    background-size: -1000px -1600px;   /* exact width and height */
+    background-size: -1000px -2000px;   /* exact width and height */
     background-position: center;      /* center the image */
     background-repeat: no-repeat;     /* don’t tile */
     min-height: 100vh;                /* ensure body fills screen height */
